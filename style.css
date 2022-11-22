@@ -28,6 +28,7 @@ footer{
 .lorem-1{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 15px;
   background-color: rgba(0, 255, 255, 0.136);
 }
