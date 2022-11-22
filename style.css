@@ -2,6 +2,8 @@
 main{
   display: flex;
   flex-wrap: wrap;
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 header{
@@ -18,8 +20,12 @@ aside{
   background-color: rgba(236, 183, 192, 0.44);
   flex: 0 0 250px;
 }
+p{
+  padding: 10px 15px;
+  flex: 1 1 250px;
+  background-color: rgba(66, 253, 37, 0.273);
+}
 footer{
-  display: flex;
-  flex-wrap: wrap;
   background-color: orange;
+  flex: 1  1 100%;
 }
