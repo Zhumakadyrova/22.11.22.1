@@ -1,0 +1,25 @@
+*{box-sizing: border-box;}
+main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header{
+  background-color: rgb(27, 248, 93);
+  flex: 1 1 100%;
+ 
+}
+article{
+  background-color: rgba(214, 184, 147, 0.952);
+  flex: 1 1 0;
+
+}
+aside{
+  background-color: rgba(236, 183, 192, 0.44);
+  flex: 0 0 250px;
+}
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: orange;
+}
