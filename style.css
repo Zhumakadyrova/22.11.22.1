@@ -13,18 +13,14 @@ header{
 }
 article{
   background-color: rgba(214, 184, 147, 0.952);
-  flex: 1 1 0;
+  flex: 1 1 200px;
 
 }
 aside{
   background-color: rgba(236, 183, 192, 0.44);
   flex: 0 0 250px;
 }
-p{
-  padding: 10px 15px;
-  flex: 1 1 250px;
-  background-color: rgba(66, 253, 37, 0.273);
-}
+
 footer{
   background-color: orange;
   flex: 1  1 100%;
